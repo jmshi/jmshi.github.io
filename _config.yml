@@ -32,18 +32,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
 
-
-# Site menus
-menus:
-    main:
-    - Home: /
-    - Research: /main-pages/research/
-    - CV: /main-pages/cv/
-    - Blog: /_post/
-#    side:
-#    - Categories: /categories/
-#    - Tags: /tags/
-
+permalink: blog/:year/:month/:title
 
 
 # Exclude from processing.

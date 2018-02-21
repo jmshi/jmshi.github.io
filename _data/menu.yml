@@ -1,0 +1,30 @@
+- title: "About Me"
+  href: "/about/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Research"
+  href: "/research/"
+  subcategories:
+    - subtitle: "Active Galactic Nuclei"
+      subhref: "/research/agn/"
+    - subtitle: "Circumbinary Disks"
+      subhref: "/research/cbd/"
+    - subtitle: "MRI"
+      subhref: "/research/mri/"
+    - subtitle: "Planet Formation"
+      subhref: "/research/planet/"
+    - subtitle: "Protoplanetary Disks"
+      subhref: "/research/ppd/"
+
+- title: "Misc."
+  href: "/misc/"
+#  subcategories:
+#    - subtitle: "Item 1"
+#      subhref: "/miscellany/item-1/"
+#    - subtitle: "Item 2"
+#      subhref: "/miscellany/item-2/"
