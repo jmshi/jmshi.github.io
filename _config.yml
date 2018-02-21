@@ -30,6 +30,20 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+# Site menus
+menus:
+    main:
+    - Home: /
+    - Research: /main-pages/research/
+    - CV: /main-pages/cv/
+    - Blog: /_post/
+#    side:
+#    - Categories: /categories/
+#    - Tags: /tags/
+
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
