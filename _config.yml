@@ -29,8 +29,6 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
-  - jemoji
-  - jekyll-sitemap
 
 permalink: blog/:year/:month/:title
 
