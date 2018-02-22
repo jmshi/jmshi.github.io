@@ -16,24 +16,23 @@ tags:
 
 In order to answer these questions, I started to look into existing data which covers recent and historic mass shootings and surprisingly found there wasn't much data being collected. The major two I have found are [Mother Jones' investigation][1] which covered 1982-2018 and focus mostly on shootings that occurred in public space, and [Everytown's analysis][2,3] based on FBI report and CDC firearm data from 2009-2016 with more general scope. Nonetheless, both define a mass shooting as a single attack in which four or more victims were killed. Combining these two datasets, I am able to find 16 school shootings among 166 attacks in total (a python notebook is available [here][4]). The average number of fatality per attack in a school is significantly higher than other places:
 
-<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
+<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
 
 
 The Mother Jones' data also categorizes the venue of the attacks. The following chart shows the number of attacks and the sum of all fatalities by venues. To simplify the analysis, we drop those categorized as 'Other', meaning other than the five main venues displayed here. 
 
-<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/6.embed"></iframe>
+<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/6.embed"></iframe>
 
 
 Attacks occurred in workplace dominates both the total fatalities (173 victims), and number of incidents (28 times). However, the fatality rate of school attacks are much greater than that in the workplace as shown below:
 
-<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/2.embed"></iframe>
+<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/4.embed"></iframe>
 
 It is also worth mentioning that the averaged fatalities in 'Religious', some religious building, is the highest among the five different venues based on somewhat limited samples. 
 
 
 
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/4.embed"></iframe>
 
 ## cross check between these two datasets
 
