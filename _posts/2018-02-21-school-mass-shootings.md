@@ -26,7 +26,7 @@ The Mother Jones' data also categorizes the venue of the attacks. The following 
 
 Attacks occurred in workplace dominates both the total fatalities (173 victims), and number of incidents (28 times). However, the fatality rate of school attacks are much greater than that in the workplace as shown below:
 
-<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/4.embed"></iframe>
+<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/4.embed"> </iframe>
 
 It is also worth mentioning that the averaged fatalities in 'Religious', some religious building, is the highest among the five different venues based on somewhat limited samples. 
 
