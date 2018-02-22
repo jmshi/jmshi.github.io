@@ -1,5 +1,5 @@
 ---
-title: school mass shootings
+title: Is School More Vulnerable to Mass Shootings ?
 date: 2018-02-21T01:05:01+00:00
 author: jmshi
 layout: post
@@ -12,13 +12,11 @@ tags:
 ---
 
 
-<h1><center>Is School More Vulnerable to Mass Shootings ? </center></h1>
+### 17 people were killed in the recent high school mass shooting in Parkland, Florida. 27 people were killed in Sandy Hook Elementary massacre in 2012. 32 people were killed in Virginia Tech in 2007. Are you wondering if a school is more vulnerable to such an attack than other places? Does the vulnerability make them potential targets for the murderers?  
 
+In order to answer these questions, I started to look into existing data which covers recent and historic mass shootings and surprisingly found there wasn't much data being collected. The major two I have found are [Mother Jones' investigation][1] which covered 1982-2018 and focus mostly on shootings that occurred in public space, and [Everytown's analysis][2] based on FBI report and CDC firearm data from 2009-2016 with more general scope. Nonetheless, both define a mass shooting as a single attack in which four or more victims were killed. Combining these two datasets, I am able to find 16 school shootings among 166 attacks in total. The average number of fatality per attack in a school vs. other places is shown below:
 
-### 17 people were killed in the recent high school mass shooting in Parkland, Florida. 27 people were killed in Sandy Hook Elementary massacre in 2012. 32 people were killed in Virginia Tech in 2007. Is the school more vulnerable to such an attack than other places? Does the vulnerability make them potential targets for the murderers?  
-
-
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
+<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
 
 # Data from MotherJones
 * [US Mass Shootings, 1982-2018: Data From Mother Jones’ Investigation](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) --The full data set from our in-depth investigation into mass shootings.
@@ -222,3 +220,9 @@ fig = Figure(data=data,layout=layout)
 #ply.iplot(fig, filename='mean_fatalities_school_no_school')
 iplot(fig, filename='mean_fatalities_school_no_school')
 ```
+
+[1] https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) "US Mass Shootings, 1982-2018: Data From Mother Jones’ Investigation - The full data set from our in-depth investigation into mass shootings.
+[2] https://everytownresearch.org/reports/mass-shootings-analysis/  "Everytown's Mass Shooting Analysis"
+[3] https://everytownresearch.org/gun-violence-by-the-numbers/  "Everytown's Gun Violence by the Numbers"
+[5] https://github.com/nprapps "Data analysis for Everytown's mass shooting database"
+[4] http://nbviewer.jupyter.org/gist/jmshi/76b3443353e42b19f59178187adf09ca "mother_jones.ipynb"
