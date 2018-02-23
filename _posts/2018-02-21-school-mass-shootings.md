@@ -13,8 +13,12 @@ categories: Data Science
 
 In order to answer these questions, I started to look into existing data which covers recent and historic mass shootings and surprisingly found there wasn't much data being collected. The major two I have found are Mother Jones' investigation [1](#1) which covered 1982-2018 and focus mostly on shootings that occurred in public space, and Everytown's analysis[2](#2)[3](#3) based on FBI report and CDC firearm data from 2009-2016 with more general scope. Nonetheless, both define a mass shooting as a single attack in which four or more victims were killed. Combining these two datasets, I am able to find 16 school shootings among 166 attacks in total (a python notebook is available in [4](#4)). The average number of fatalities per attack in a school is significantly higher than other places:
 
-<iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
+[//]: # <iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
 
+<div>
+   <a href="https://plot.ly/~jmshi/8/?share_key=lZtunbhrWLIgHwGdU4fPhT" target="_blank" title="mean_fatalities_school_no_school_1" style="display: block; text-align: center;"><img src="https://plot.ly/~jmshi/8.png?share_key=lZtunbhrWLIgHwGdU4fPhT" alt="mean_fatalities_school_no_school_1" style="max-width: 100%;width: 500px;"  width="500" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+       <script data-plotly="jmshi:8" sharekey-plotly="lZtunbhrWLIgHwGdU4fPhT" src="https://plot.ly/embed.js" async></script>
+</div>
 
 The Mother Jones' data also categorizes the venue of the attacks. The following chart shows the number of attacks and the sum of all fatalities by venues. To simplify the analysis, we drop those categorized as 'Other', meaning other than the five main venues displayed here. 
 
