@@ -4,14 +4,15 @@ date: 2018-02-21T01:05:01+00:00
 author: jmshi
 layout: post
 permalink: /school-mass-shootings/
-image: /wp-content/uploads/2016/10/bird_nest.png
+image: 	school_not_school.png
+summary:  A study based on data from 1982-2018 shows that a school, an environment which is high in crowd density and low in security control could be more vunerably to mass shootings. 
 categories: Data Science
 ---
 
 
 ### 17 people were killed in the recent high school mass shooting in Parkland, Florida. 27 people were killed in Sandy Hook Elementary massacre in 2012. 32 people were killed in Virginia Tech in 2007. Are you wondering if a school is more vulnerable to such an attack than other places? Does the vulnerability make them potential targets for the murderers?  
 
-In order to answer these questions, I started to look into existing data which covers recent and historic mass shootings and surprisingly found there wasn't much data being collected. The major two I have found are Mother Jones' investigation [<sup>1</sup>](#1) which covered 1982-2018 and focus mostly on shootings that occurred in public space, and Everytown's analysis[<sup>2</sup>](#2)[<sup>3</sup>](#3) based on FBI report and CDC firearm data from 2009-2016 with more general scope. Nonetheless, both define a mass shooting as a single attack in which four or more victims were killed. Combining these two datasets, I am able to find 16 school shootings among 166 attacks in total (a python notebook is available in [<sup>4</sup>](#4)). The average number of fatalities per attack in a school is significantly higher than other places:
+In order to answer these questions, I started to look into existing data which covers recent and historic mass shootings and surprisingly found there wasn't much data being collected. The major two I have found are Mother Jones' investigation [<sup>1</sup>](#1) which covered 1982-2018 and focus mostly on shootings that occurred in public space, and Everytown's analysis[<sup>2, </sup>](#2)[<sup>3</sup>](#3) based on FBI report and CDC firearm data from 2009-2016 with more general scope. Nonetheless, both define a mass shooting as a single attack in which four or more victims were killed. Combining these two datasets, I am able to find 16 school shootings among 166 attacks in total (a python notebook is available in [<sup>4</sup>](#4)). The average number of fatalities per attack in a school is significantly higher than other places:
 
 [//]: # <iframe width="700" height="500" frameborder="0" scrolling="no" src="//plot.ly/~jmshi/8.embed"></iframe>
 
