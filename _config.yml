@@ -22,7 +22,7 @@ description: no description yet. # this means to ignore newlines until "baseurl:
 imageurl: /assets/ # the subpath of your site, e.g. /blog
 baseurl: /blog/ # the subpath of your site, e.g. /blog
 url: https://jmshi.github.io # the base hostname & protocol for your site, e.g. http://example.com
-title_image: /assets/WANDERERS_europa_view_01-300x169.jpg
+# title_image: /assets/WANDERERS_europa_view_01-300x169.jpg
 twitter_username: jmshi
 github_username:  jmshi
 
