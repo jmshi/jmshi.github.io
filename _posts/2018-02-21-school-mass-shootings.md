@@ -37,16 +37,21 @@ It is also worth mentioning that the averaged fatalities in 'Religious', some re
 * Santa Monica 6/7/2013 is missing from MotherJones
 * The rest are all covered in Mother Jones' report. 
 
-[1]: https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) "US Mass Shootings, 1982-2018: Data From Mother Jones’ Investigation - The full data set from our in-depth investigation into mass shootings.
+[1]: https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/) 
+"US Mass Shootings, 1982-2018: Data From Mother Jones’ Investigation - The full data set from our in-depth investigation into mass shootings."
 
 
-[2]: https://everytownresearch.org/reports/mass-shootings-analysis/  "Everytown's Mass Shooting Analysis"
+[2]: https://everytownresearch.org/reports/mass-shootings-analysis/  
+"Everytown's Mass Shooting Analysis"
 
 
-[3]: https://github.com/nprapps "Data analysis for Everytown's mass shooting database"
+[3]: https://github.com/nprapps 
+"Data analysis for Everytown's mass shooting database"
 
 
-[4]: http://nbviewer.jupyter.org/gist/jmshi/76b3443353e42b19f59178187adf09ca "mother_jones.ipynb"
+[4]: http://nbviewer.jupyter.org/gist/jmshi/76b3443353e42b19f59178187adf09ca 
+"mother_jones.ipynb"
 
 
-[5]: https://everytownresearch.org/gun-violence-by-the-numbers/  "Everytown's Gun Violence by the Numbers"
+[5]: https://everytownresearch.org/gun-violence-by-the-numbers/  
+"Everytown's Gun Violence by the Numbers"
