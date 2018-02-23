@@ -56,7 +56,7 @@ somewhat limited number of samples.
 
 *The results indicate that the attack in an environment such as a school, which is high in crowd density and low in security control, does result in larger fatalities.*
 
-But is this vulnerability being targeted by the criminals? Perhaps we need to know not only those attacks have been carried out, but those attempts that failed. Perhaps we need to study the motives as well. For instance, during the Rancho Tehama shooting spree, the shooter picked a nearby elementary school as his next target after shooting a few neighbors and passers-by [<sup>5</sup>](#5). According to news report, the motive is unclear. The invetigators have not connected the shooter with anyone at the school. It could be very likely that the shooter choose the school to increase its impact. 
+But is this vulnerability being targeted by the criminals? Perhaps we need to know not only those attacks have been carried out, but those attempts that failed. Perhaps we need to study the motives as well. For instance, during the Rancho Tehama shooting spree, the shooter picked a nearby elementary school as his next target after shooting a few neighbors and passers-by [<sup>5</sup>](#5). According to news report, the motive is unclear. The invetigators have not connected the shooter with anyone at the school. It could be very likely that the shooter chose the school to increase the potential damage. 
 
 ## Caveats
 
