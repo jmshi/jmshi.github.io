@@ -44,3 +44,7 @@ permalink: blog/:year/:month/:title
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+# google analytics
+google_analytics: UA-89557192-2
