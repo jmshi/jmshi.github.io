@@ -9,7 +9,6 @@ summary:
 categories: log
 ---
 
-# this is a tempddlate for regular posts
 Migration project, which was planned long ago, finally started on Feb 20, 2018. The reason to switch is too obvious to even think about it. The basic process consists of
 
 1. Export my [old WordPress site](http://jimingshi.us) into markdown documents and download necessary images and videos: achieved by using [Jekyll exporter](https://wordpress.org/plugins/jekyll-exporter/)
