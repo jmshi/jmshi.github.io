@@ -4,7 +4,7 @@ date: 2018-02-21T01:05:01+00:00
 author: jmshi
 layout: post
 permalink: /school-mass-shootings/
-image: 	school_not_school.png
+image: 	/assets/school_not_school.png
 summary:  A study based on data from 1982-2018 shows that a school, an environment which is high in crowd density and low in security control could be more vunerably to mass shootings. 
 categories: Data Science
 ---
