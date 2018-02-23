@@ -73,3 +73,6 @@ The analysis could be biased due to the relatively small number of incidents we 
 
 <a id="4"></a> [4]:[http://nbviewer.jupyter.org/gist/jmshi/76b3443353e42b19f59178187adf09ca](http://nbviewer.jupyter.org/gist/jmshi/76b3443353e42b19f59178187adf09ca) notebook link 
 
+
+<a id="5"></a> [3]: [NBC news coverage on Rancho Tehama shootings](https://www.nbcnews.com/news/us-news/gunman-kills-four-wounds-child-school-california-shootings-n820766)
+
