@@ -4,14 +4,9 @@ title: games and twitter
 date: 2016-10-31T01:05:01+00:00
 author: jiming5_wp
 layout: post
-guid: http://jimingshi.us/?page_id=270
 permalink: /games-and-twitter/
 image: /wp-content/uploads/2016/10/bird_nest.png
-categories:
-  - Data Science
-tags:
-  - twitter
-  - natural language processing
+categories: Data Science
 ---
 games\_and\_tweets
 

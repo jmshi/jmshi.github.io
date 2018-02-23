@@ -7,12 +7,7 @@ layout: post
 guid: http://jimingshi.us/?p=80
 permalink: /accretion-equilibrium/
 image: /wp-content/uploads/2016/10/cbd_leakage.png
-categories:
-  - Recent Work
-tags:
-  - circumbinary disk
-  - MHD
-  - supermassive binary black holes
+categories: Research Work
 ---
 <span style="font-size: 12pt;">Circumbinary disk could maintain efficient accretion through fast radial gas streams.</span>
 

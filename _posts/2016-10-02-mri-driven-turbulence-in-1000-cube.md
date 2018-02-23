@@ -7,11 +7,7 @@ layout: post
 guid: http://jimingshi.us/?p=64
 permalink: /mri-driven-turbulence-in-1000-cube/
 image: /wp-content/uploads/2016/10/thousand_cube-1.png
-categories:
-  - Recent Work
-tags:
-  - MRI turbulence
-  - shearingbox
+categories: [Research Work, Data Science]
 ---
 <span style="font-size: 12pt;">The newly developed ShearingBox algorithm in <span style="font-family: courier new,courier,monospace;">Athena++</span> allows us to explore the properties of MRI-driven turbulence with very high resolution (thousand cubed grid cells or even higher) .</span>
 

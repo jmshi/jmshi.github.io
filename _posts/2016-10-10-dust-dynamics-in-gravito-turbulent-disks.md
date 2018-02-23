@@ -7,12 +7,7 @@ layout: post
 guid: http://jimingshi.us/?p=252
 permalink: /dust-dynamics-in-gravito-turbulent-disks/
 image: /wp-content/uploads/2016/10/gt-2-collage-1.png
-categories:
-  - Recent Work
-tags:
-  - gravito-turbulence
-  - MRI turbulence
-  - planetesimals
+categories: Research Work
 ---
 <span style="font-size: 12pt;">A recent effort studying the diffusion and scattering of dust particles in self-gravity driven turbulent protoplanetary disks. </span>
 
