@@ -2,7 +2,7 @@
 title: Research
 layout: page
 permalink: /research/
-vimeodID: 121467348
+vimeodId: 121467348
 ---
 <span style="font-size: 12pt;">My research centers on astrophysical fluid dynamics, MHD and radiative process in the context of accretion flows and other objects. A common thread in my research is to utilize physical theories and numerical experiments to understand how those astronomical objects form, sustain and evolve.</span>
 
