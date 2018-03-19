@@ -2,6 +2,7 @@
 title: Research
 layout: page
 permalink: /research/
+vimeodID: 121467348
 ---
 <span style="font-size: 12pt;">My research centers on astrophysical fluid dynamics, MHD and radiative process in the context of accretion flows and other objects. A common thread in my research is to utilize physical theories and numerical experiments to understand how those astronomical objects form, sustain and evolve.</span>
 
@@ -11,7 +12,8 @@ permalink: /research/
 
 &nbsp;
 
-<div style="float: right; margin-left: 15px;"><iframe src="https://player.vimeo.com/video/121467348" width="200" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+{% include vimeo.html id=page.vimeoId %}
+
 
 
 <span style="font-size: 12pt;"><a href="/research/cbd">Circumbinary Disks</a>  are commonly observed surrounding young binary stars, post-AGB stars, and even protoplanetary systems (extreme mass ratio). They are also believed to be present around supermassive binary black holes (SMBBHs, a pair of supermassive BHs) during the galaxies&#8217; merging process. They are dynamically rich systems, and the EM signals emitted from the disk might help identify the binary stars or black hole mergers.<a href="/research/cbd"> [Read More]</a></span>
