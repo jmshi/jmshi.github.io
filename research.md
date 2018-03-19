@@ -12,7 +12,7 @@ vimeodId: 121467348
 
 &nbsp;
 
-{% include vimeo.html id=page.vimeoId %}
+<iframe src="https://player.vimeo.com/video/121467348" width="200" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 
