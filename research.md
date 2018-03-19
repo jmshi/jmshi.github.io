@@ -11,7 +11,7 @@ permalink: /research/
 
 &nbsp;
 
-{% include vimeo.html id="https://player.vimeo.com/video/121467348" %}
+<div style="float: right; margin-left: 15px;"><iframe src="https://player.vimeo.com/video/121467348" width="200" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 
 <span style="font-size: 12pt;"><a href="/research/cbd">Circumbinary Disks</a>  are commonly observed surrounding young binary stars, post-AGB stars, and even protoplanetary systems (extreme mass ratio). They are also believed to be present around supermassive binary black holes (SMBBHs, a pair of supermassive BHs) during the galaxies&#8217; merging process. They are dynamically rich systems, and the EM signals emitted from the disk might help identify the binary stars or black hole mergers.<a href="/research/cbd"> [Read More]</a></span>
