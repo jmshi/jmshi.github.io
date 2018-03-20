@@ -18,6 +18,7 @@ permalink: /research/ppd/
 <span style="font-size: 12pt;">Protoplanetary disks which are cold and/or massive, usually when they are young, may become <img class="size-medium wp-image-218 alignleft" src="/assets/gt_tc10-300x282.png" alt="gt_tc10" width="300" height="282" srcset="/assets/gt_tc10-300x282.png 300w,/assets/gt_tc10-768x722.png 768w, /assets/gt_tc10.png 1024w" sizes="(max-width: 300px) 100vw, 300px" />unstable to gravitational instability. However, the unstable disks may still get away from the fatal fragmentation if the shock heating due to collapsing could not be radiated away rapidly. A self-regulated state exists when heating is balanced by cooling and is termed as &#8220;Gravito-turbulence&#8221; (Gammie 2001). To date, numerous work have been done with either 2D local/global or 3D global only simulations. And those 3D studies are mostly based on SPH simulations which are usually less accurate with shock waves and often have large numerical viscosities. On the other hand, 3D local simulation could be very useful to investigate the details of the turbulence given its higher resolution and better algorithms for handling shock heating.</span>
 
 <div style="float: right; margin-left: 15px;">
+{% include vimeoPlayer.html id="87333462" %}
 </div>
 
 <span style="font-size: 12pt;"><a id="gt"></a>We use 3D local hydrodynamic simulations of cooling, </span>
