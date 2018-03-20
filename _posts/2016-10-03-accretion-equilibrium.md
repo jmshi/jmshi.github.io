@@ -9,7 +9,7 @@ permalink: /accretion-equilibrium/
 image: /wp-content/uploads/2016/10/cbd_leakage.png
 categories: Research Work
 ---
-<img class="aligncenter" src="/assets/cbd_leakage.png" alt='thousand_cube' width="450" height="350"/> 
+<img class="aligncenter" src="/assets/cbd_leakage.png" alt='thousand_cube' width="650" height="350"/> 
 
 <span style="font-size: 12pt;">Circumbinary disk could maintain efficient accretion through fast radial gas streams.</span>
 
