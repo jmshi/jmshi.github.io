@@ -6,6 +6,7 @@ permalink: /research/cbd/
 <span style="font-size: 12pt;">Various types of astronomical binary systems can be embedded <img class="alignright wp-image-149" src="/assets/sigma_t0483-e1475518631538-298x300.png" alt="sigma_t0483" width="220" height="222" srcset="/assets/sigma_t0483-e1475518631538-298x300.png 298w, /assets/sigma_t0483-e1475518631538-150x150.png 150w, /assets/sigma_t0483-e1475518631538.png 566w" sizes="(max-width: 220px) 100vw, 220px" />in gaseous disks, from young binary stars to stars with growing planets to supermassive binary black holes (SMBBHs) in merging galaxies. Such disks have been observed directly in nearby star-forming regions and indirectly in galaxy mergers via their time dependent light signals. Its significance also shows up in detecting the gravitational wave (GW) radiation, as the electron-magnetic radiation from the gas disk would help locate the progenitors of GW radiation.</span>
 
 <div style="float: left; margin-right: 15px;">
+{% include vimeo.html id="56607082" %}
 </div>
 
 <span style="font-size: 12pt;">We performed the first 3D MHD simulation of the circumbinary disk (of equal mass binary; paper link at <a href="http://adsabs.harvard.edu/abs/2012ApJ...749..118S">ADS</a> & <a href="http://arxiv.org/abs/1110.4866">astro-ph</a>) to study in details how the mass and angular momentum is redistributed by the gravity of the binary. We discovered overdensity lump along with other interesting signatures, such as low density gap, overdensity &#8216;lump&#8217; near the gap edge (see top left image) , narrow laminar gas streams across the gap (see the top right movie) and disk eccentricity growth. The &#8216;lump&#8217; also modulates the disk accretion at the local orbital frequency, which provides a possible way to detect binary black hole mergers based on the periodicity.</span>
@@ -27,6 +28,7 @@ permalink: /research/cbd/
 &nbsp;
 
 <div style="float: left; margin-right: 15px;">
+{% include vimeo.html id="240491646" %}
 </div>
 
 <span style="font-size: 12pt;">For circumbinary disks formed during either star formation or galaxy merging, there is no compelling reason to assume that the binary orbit should be aligned with the disk rotation initially. There are also growing observations indicate they are not always coplanar. Studying how tilted disks interact with the binary could shed lights on understanding problems such as how does the massive binary black hole merge, and explain observations such as the spin-orbit misalignment between the stars and planets. Currently, I am modeling such tilted circumbinary disks with 3D viscous hydro grid-based simulations using <span style="font-family: courier new,courier,monospace;">Athena++</span>. The focus here is to study the dynamics of the accretion flows and the angular momentum transport of the binary-disk system when disk is inclined to the central binary.</span>
