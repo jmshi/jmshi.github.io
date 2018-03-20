@@ -8,8 +8,6 @@ permalink: /games-and-twitter/
 image: /wp-content/uploads/2016/10/bird_nest.png
 categories: Data Science
 ---
-games\_and\_tweets
-
 
 # 1. Introduction
 ### Motivation:
