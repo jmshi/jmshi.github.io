@@ -14,7 +14,7 @@ The newly developed ShearingBox algorithm
 in <span
 style="font-family: courier new,courier,monospace;">Athena++</span>
 allows us to explore the properties of MRI-driven turbulence with very
-high resolution (thousand cubed grid cells or even higher) .</span>
+high resolution (thousand cubed grid cells or even higher).
 
 <!--more-->
 
