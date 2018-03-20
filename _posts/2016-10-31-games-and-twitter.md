@@ -32,19 +32,19 @@ I then collect all tweets that are related to each game in the past week (Oct-23
 In order to perform more detailed study of a given mobile game, I pick the most popular game Pokemon Go as an example, and expand the data set to include all tweets within the past two weeks. That gives a total tweets count about 120K for Pokemon Go alone.
          
 # 3. Popularity Survey
-## 3-1. user information from official account<a class="anchor-link" href="#3-1.-user-information-from-official-account">¶</a>
+## 3-1. user information from official account
 One way we can get an easy measurement of if a game is popular or not is to pull out some information associated with its official twitter account, such as the number of followers and number of likes. Normally, a more popular game would be garnished with more followers and more likes. However, cautions are needed as not every twitter user who plays a particular game would follow its official account on twitter.
 
 The following plot shows total number of followers to-date of a list of 14 popular mobile games (list based on internet reviews in 2015 and 2016):
 There are two winners: *Clash of Clans* and *Pokemon Go*, both have followers more than 2 millions, which clearly shows both are or were very popular games (follower number only goes up with time, so there is a bias toward games with longer time spans.)
 
-<img class="size-medium wp-image-273 alignright" src="/assets/followers.png" alt="followers" width="400" height="400" />
+<img class="size-medium wp-image-273 aligncenter" src="/assets/followers.png" alt="followers" width="400" height="400" />
            
         
 In order to show the bias, or extract a unbiased analysis, we here plot number of followers (left) and number of days of the game&#8217;s lifetime (right) together. Note Pokemon Go only released this June, but the official account was registered in 2014 which is when that game is conceived.
 Both <strong>Clash of Clans and Pokemon Go</strong> have a lifetime close or below the average ages of the list of games we considered. However their follower counts are exceptional, clearly indicate their popularity in recent years. Especially for Pokemon Go, it shows a strong momentum to keep its popularity.
           
-<img class="size-medium wp-image-273 alignright" src="/assets/followers_days.png" alt="followers" width="400" height="400" />
+<img class="size-medium wp-image-273 aligncenter" src="/assets/followers_days.png" alt="followers" width="400" height="400" />
            
 On the other hand, number of likes might not be a good indicator of a game&#8217;s recent popularity. Some games gained more likes due to their longevity, such as angry birds and Plants vs Zombies. Some popular games such as Pokemon Go gains less likes partly because of its very young age. One exception is Ingress, a location based, multiplayer online game, a relative of Pokemon Go. It attracts the third highest number of likes within a time span less than the averaged lifetime of the games in the list.
 <img class="size-medium wp-image-273 alignright" src="/assets/likes_days.png" alt="followers" width="400" height="400" />
