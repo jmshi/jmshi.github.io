@@ -9,7 +9,7 @@ summary:
 categories: research
 ---
 
-<img class="aligncenter" src="/assets/thousand_cube_mri.png" alt='thousand_cube' width="350" height="350"/> 
+<img class="aligncenter" src="/assets/thousand_cube_mri.png" alt='thousand_cube' width="450" height="350"/> 
 The newly developed ShearingBox algorithm
 in <span
 style="font-family: courier new,courier,monospace;">Athena++</span>
