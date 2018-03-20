@@ -38,19 +38,19 @@ One way we can get an easy measurement of if a game is popular or not is to pull
 The following plot shows total number of followers to-date of a list of 14 popular mobile games (list based on internet reviews in 2015 and 2016):
 There are two winners: *Clash of Clans* and *Pokemon Go*, both have followers more than 2 millions, which clearly shows both are or were very popular games (follower number only goes up with time, so there is a bias toward games with longer time spans.)
 
-<img class="size-medium wp-image-273 aligncenter" src="/assets/followers.png" alt="followers" width="400" height="400" />
+<img class="size-medium wp-image-273 aligncenter" src="/assets/followers.png" alt="followers" width="400" height="300" />
            
         
 In order to show the bias, or extract a unbiased analysis, we here plot number of followers (left) and number of days of the game&#8217;s lifetime (right) together. Note Pokemon Go only released this June, but the official account was registered in 2014 which is when that game is conceived.
 Both <strong>Clash of Clans and Pokemon Go</strong> have a lifetime close or below the average ages of the list of games we considered. However their follower counts are exceptional, clearly indicate their popularity in recent years. Especially for Pokemon Go, it shows a strong momentum to keep its popularity.
           
-<img class="size-medium wp-image-273 aligncenter" src="/assets/followers_days.png" alt="followers" width="400" height="400" />
+<img class="size-medium wp-image-273 aligncenter" src="/assets/followers_days.png" alt="followers" width="400" height="300" />
            
 On the other hand, number of likes might not be a good indicator of a game&#8217;s recent popularity. Some games gained more likes due to their longevity, such as angry birds and Plants vs Zombies. Some popular games such as Pokemon Go gains less likes partly because of its very young age. One exception is Ingress, a location based, multiplayer online game, a relative of Pokemon Go. It attracts the third highest number of likes within a time span less than the averaged lifetime of the games in the list.
 <img class="size-medium wp-image-273 alignright" src="/assets/likes_days.png" alt="followers" width="400" height="400" />
 
 
-## 2.2 tweets count<a class="anchor-link" href="#2.2-tweets-count">¶</a>
+## 2.2 tweets count
 
 Another way to measure the popularity of a game is by counting how many times twitter users mentioned the game. I therefore scrapped the tweets on the web within the past week for the following six games: Candy Crush, Clash of Clans, Flappy Bird, Plants vs Zombies, Subway Surfers, Pokemon Go. 
     
@@ -59,38 +59,31 @@ The following plot shows the number of tweets that mentioned individual game in 
 * It is not surprising to see Pokemon Go alone hits 70K tweets,while the rest of five combined only gives 10K.
 
 It indicates that,        
-          <ul>
-            <li>
-              1) overall Pokemon Go is the most dominant mobile game based on social media , or
-            </li>
-            <li>
-              2) Pokemon Go players tweet much more often (almost 100 times) than other game players do
-            </li>
-          </ul>
+* 1) overall Pokemon Go is the most dominant mobile game based on social media , or
+* 2) Pokemon Go players tweet much more often (almost 100 times) than other game players do
+        
 although the second might not be so likely. Further study with data over longer time span, and/or get user information might be very useful to tell. <strong>In any rate, Pokemon Go does a great job to get its players excited indicated by the huge amount of tweets over a relatively short period of time.
 
 <img class="size-medium wp-image-286 aligncenter" src="/assets/barchart-248x300.png" alt="barchart" width="248" height="300" srcset="/assets/barchart-248x300.png 248w, /assets/barchart.png 309w" sizes="(max-width: 248px) 100vw, 248px" />
       
-# 3. Pattern of usage<a class="anchor-link" href="#3.-Pattern-of-usage">¶</a>
-<h2 id="3-1.-weekly-pattern">
-3-1. weekly pattern<a class="anchor-link" href="#3-1.-weekly-pattern">¶</a>
-</h2>
+# 3. Pattern of usage
+## 3-1. weekly pattern
 Before we move on to the text content, lets do a histogram of total count grouped by days of week. For this and following study, I have doubled the data size which now spans over the past two weeks (120k tweets in total). Based on the following plot,
 * there is a clear uprising trend from Monday to Thursday, and a sudden drop on Friday and then gradually climb up back during the weekend.
 Whether it is an indicator of people spend more time on Pokemon Go from Monday to Thursday, or people tend to tweet more during Mon to Thursday is unclear at this moment.
-<img class="size-medium wp-image-273 alignright" src="/assets/days_of_week.png" alt="followers" width="400" height="400" />        
+<img class="size-medium wp-image-273 aligncenter" src="/assets/days_of_week.png" alt="followers" width="400" height="300" />        
     
   
-<h2 id="3-2.-daily-pattern">
-3-2. daily pattern<a class="anchor-link" href="#3-2.-daily-pattern">¶</a>
-</h2>
+
+## 3-2. daily pattern<a class="anchor-link" href="#3-2.-daily-pattern">¶</a>
+
 * Most of the tweets occur between the day time from 6am to 4pm which is reasonable
 * It peaks at the noon time, which is perhaps because people have more free time during lunch
-<img class="size-medium wp-image-273 alignright" src="/assets/daily_pattern.png" alt="followers" width="400" height="400" />                   
+<img class="size-medium wp-image-273 aligncenter" src="/assets/daily_pattern.png" alt="followers" width="400" height="300" />                   
 
 
-# 4. Text analysis<a class="anchor-link" href="#4.-Text-analysis">¶</a>
-## 4-1. terms occurrence<a class="anchor-link" href="#4.1-Terms-occurence">¶</a>
+# 4. Text analysis
+## 4-1. terms occurrence
 
 By searching and sorting all meaningful single words in the text of tweets within the last two weeks, here are the first 10 most frequent words:<br /> *(&#8216;twitter&#8217;, 38406), (&#8216;pic&#8217;, 23536), (&#8216;halloween&#8217;, 10795), (&#8216;video&#8217;, 9545), (&#8216;new&#8217;, 8537), (&#8216;update&#8217;, 7604), (&#8216;liked&#8217;, 7068), (&#8216;event&#8217;, 6850), (&#8216;play&#8217;, 5300), (&#8216;get&#8217;, 4227)
 * The words &#8216;pic&#8217; and &#8216;video&#8217; clearly show the popular media content of the tweets;
@@ -122,15 +115,15 @@ which indicates that
 To sum up the finding, Pokemon Go clearly has very good and successful marketing strategies to stimulate their players such as holding events, and sharing pic/movies with/among the users. It is also integrated in the pop culture very well in which the game can benefit from. Certain needs such as pokecoins and rare species might pose difficulties for current and potential players, and the effects of that should be further investigated.
         
   
-## 4-2. sentiment analysis<a class="anchor-link" href="#4.-Sentiment-analysis">¶</a>
+## 4-2. sentiment analysis
 
 We can try to measure the sentiment scores of the tweets about Pokemon Go, which provides a way to tell game players&#8217; opinion about the game. We use the same data sample as above, but only use the most recent 4000 tweets as a test and run those tweets through a <a href="http://pythonhosted.org/sentiment_classifier/">sentiment classifier</a> built base on Word Sense Disambiguation using wordnet and word occurance statistics from nltk.
-* Based on the 4000 tweets, we find a much greater positive score ($85.6$) than the total negative score ($33.9$), indicates Pokemon Go is overall receiving a very positive feedback.
+* Based on the 4000 tweets, we find a much greater positive score (85.6) than the total negative score (33.9), indicates Pokemon Go is overall receiving a very positive feedback.
        
 Similar analysis can be applied to other games too, and a comparison among a pool of mobile games would also show how much people like the games.
         
    
-# 5. Summary<a class="anchor-link" href="#5.-Summary">¶</a>
+# 5. Summary
 In this proposal, I have demonstrated that we could make use of the data from Twitter to gain insight in the mobile game industry.
 * We can perform very efficient and productive survey, which benifits both the game development and marketing
 * We can also perform detailed analysis on given product (here use Pokemon Go as an example) to find out important information such as hot terms/topic, product usage patterns, and the customer&#8217;s opinion of the product.
