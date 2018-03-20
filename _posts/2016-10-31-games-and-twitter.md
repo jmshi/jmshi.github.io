@@ -11,96 +11,33 @@ categories: Data Science
 games\_and\_tweets
 
 
-  
+# 1. Introduction
+### Motivation:
+<img class="size-medium wp-image-273 alignright" src="/assets/bird_nest-300x300.png" alt="bird_nest" width="400" height="400" srcset="/assets/bird_nest-300x300.png 300w, /assets/bird_nest-150x150.png 150w, /assets/bird_nest.png 420w" sizes="(max-width: 400px) 100vw, 400px" />Along with the explosion of popularity of mobile devices, mobile games also become more and more popular nowadays. From retro games such as Plants vs. Zombies and Flappy Bird to more recent multiplayer games such as Clash of Clans and Pokemon Go, there are a variety of them which all made big success but with very different strategies.Investigating how popular they are and what make them popular or not would bring instructional information which is invaluable to determine a better short/long term plan of their product and service. 
+   
+Text mining via social media such as Twitter comes in handy in this kind of task. As Twitter data constitutes a rich source of information about any topic imaginable, they can be used to find trends related to a specific keyword, measuring brand sentiment, and gathering feedback about new products and services.
 
+In this proposal, I will demonstrate the possibility to use Twitter to (1) make very efficient and productive survey in the mobile game business, and (2) perform detailed analysis on given product (here use Pokemon Go as an example) to find out important information such as hot terms/topic, product usage patterns, and the customer sentiment of the product.
+         
+### Methods/Tools:
+I use <a href="https://dev.twitter.com/streaming/overview">Twitter Streaming API</a> together with Python libraries such as <a href="http://www.tweepy.org/">$\texttt{Tweepy}$</a> and <a href="https://pypi.python.org/pypi/twitterscraper">$\texttt{twitterscraper}$</a> to collect user information and relevant tweets (in the past 1-2 weeks) about certain set of popular mobile games. Use Natural Language Processing libraries such as $\texttt{NLTK}$ to find keywords which characterize the game, and use $\texttt{matplotlib}$ and $\texttt{Vincent}$ to render plots.
+ 
+    
 
+# 2. Data collection
+For the popularity survey, I first use Twitter Streaming API together with Python libraries to extract user information, such as number of followers, created time, and number of likes, from the official twitter account of a list of 14 most popular mobile games, based on internet reviews in 2015 and 2016.
 
-    
-          <h1 id="1.-Introductio">
-            1. Introduction<a class="anchor-link" href="#1.-Introductio">¶</a>
-          </h1>
-          
-          <p>
-            <strong>Motivation:</strong>  <img class="size-medium wp-image-273 alignright" src="/assets/bird_nest-300x300.png" alt="bird_nest" width="400" height="400" srcset="/assets/bird_nest-300x300.png 300w, /assets/bird_nest-150x150.png 150w, /assets/bird_nest.png 420w" sizes="(max-width: 400px) 100vw, 400px" />Along with the explosion of popularity of mobile devices, mobile games also become more and more popular nowadays. From retro games such as Plants vs. Zombies and Flappy Bird to more recent multiplayer games such as Clash of Clans and Pokemon Go, there are a variety of them which all made big success but with very different strategies.Investigating how popular they are and what make them popular or not would bring instructional information which is invaluable to determine a better short/long term plan of their product and service.
-          </p>
-          
-          <p>
-            Text mining via social media such as Twitter comes in handy in this kind of task. As Twitter data constitutes a rich source of information about any topic imaginable, they can be used to find trends related to a specific keyword, measuring brand sentiment, and gathering feedback about new products and services.
-          </p>
-          
-          <p>
-            In this proposal, I will demonstrate the possibility to use Twitter to (1) make very efficient and productive survey in the mobile game business, and (2) perform detailed analysis on given product (here use Pokemon Go as an example) to find out important information such as hot terms/topic, product usage patterns, and the customer sentiment of the product.
-          </p>
-          
-          <p>
-            <strong>Methods/Tools</strong>: I use <a href="https://dev.twitter.com/streaming/overview">Twitter Streaming API</a> together with Python libraries such as <a href="http://www.tweepy.org/">$\texttt{Tweepy}$</a> and <a href="https://pypi.python.org/pypi/twitterscraper">$\texttt{twitterscraper}$</a> to collect user information and relevant tweets (in the past 1-2 weeks) about certain set of popular mobile games. Use Natural Language Processing libraries such as $\texttt{NLTK}$ to find keywords which characterize the game, and use $\texttt{matplotlib}$ and $\texttt{Vincent}$ to render plots.
-          </p>
-    
-    <div class="cell border-box-sizing text_cell rendered">
-      <div class="prompt input_prompt">
-      </div>
-      
-      <div class="inner_cell">
-        <div class="text_cell_render border-box-sizing rendered_html">
-          <h1 id="2.-Data-collection">
-            2. Data collection<a class="anchor-link" href="#2.-Data-collection">¶</a>
-          </h1>
-          
-          <ul>
-            <li>
-              For the popularity survey, I first use Twitter Streaming API together with Python libraries to extract user information, such as number of followers, created time, and number of likes, from the official twitter account of a list of 14 most popular mobile games, based on internet reviews in 2015 and 2016.
-            </li>
-            <li>
-              I then collect all tweets that are related to each game in the past week (Oct-23 to Oct-29, 2016) using web scraping library twitterscraper. This results in about 120K tweets in total.
-            </li>
-            <li>
-              In order to perform more detailed study of a given mobile game, I pick the most popular game Pokemon Go as an example, and expand the data set to include all tweets within the past two weeks. That gives a total tweets count about 120K for Pokemon Go alone.
-            </li>
-          </ul>
-          
-          <p>
-            &nbsp;
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="cell border-box-sizing text_cell rendered">
-      <div class="prompt input_prompt">
-      </div>
-      
-      <div class="inner_cell">
-        <div class="text_cell_render border-box-sizing rendered_html">
-          <h1 id="3.-Popularity-Survey">
-            3. Popularity Survey<a class="anchor-link" href="#3.-Popularity-Survey">¶</a>
-          </h1>
-          
-          <h2 id="3-1.-user-information-from-official-account">
-            3-1. user information from official account<a class="anchor-link" href="#3-1.-user-information-from-official-account">¶</a>
-          </h2>
-          
-          <p>
-            One way we can get an easy measurement of if a game is popular or not is to pull out some information associated with its official twitter account, such as the number of followers and number of likes. Normally, a more popular game would be garnished with more followers and more likes. However, cautions are needed as not every twitter user who plays a particular game would follow its official account on twitter.
-          </p>
-          
-          <p>
-            The following plot shows total number of followers to-date of a list of 14 popular mobile games (list based on internet reviews in 2015 and 2016):
-          </p>
-          
-          <ul>
-            <li>
-              There are <strong>two winners: Clash of Clans and Pokemon Go</strong>, both have followers more than 2 millions, which clearly shows both are or were very popular games (follower number only goes up with time, so there is a bias toward games with longer time spans.)
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    
-    <div class="cell border-box-sizing code_cell rendered">
-      <div class="input">
-        <div class="prompt input_prompt">
-          In [204]:
-        </div>
+I then collect all tweets that are related to each game in the past week (Oct-23 to Oct-29, 2016) using web scraping library twitterscraper. This results in about 120K tweets in total.
+ 
+In order to perform more detailed study of a given mobile game, I pick the most popular game Pokemon Go as an example, and expand the data set to include all tweets within the past two weeks. That gives a total tweets count about 120K for Pokemon Go alone.
+         
+# 3. Popularity Survey
+## 3-1. user information from official account<a class="anchor-link" href="#3-1.-user-information-from-official-account">¶</a>
+One way we can get an easy measurement of if a game is popular or not is to pull out some information associated with its official twitter account, such as the number of followers and number of likes. Normally, a more popular game would be garnished with more followers and more likes. However, cautions are needed as not every twitter user who plays a particular game would follow its official account on twitter.
+
+The following plot shows total number of followers to-date of a list of 14 popular mobile games (list based on internet reviews in 2015 and 2016):
+There are two winners: *Clash of Clans* and *Pokemon Go*, both have followers more than 2 millions, which clearly shows both are or were very popular games (follower number only goes up with time, so there is a bias toward games with longer time spans.)
+           
         
         <div class="inner_cell">
           <div class="input_area">
