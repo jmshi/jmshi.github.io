@@ -1,25 +1,5 @@
 
 
-```python
-from IPython.display import HTML
-HTML('''<script>
-code_show=false; 
-function code_toggle() {
- if (code_show){
- $('div.input').hide();
- } else {
- $('div.input').show();
- }
- code_show = !code_show
-} 
-$( document ).ready(code_toggle);
-</script>
- click <a href="javascript:code_toggle()">here</a> to hide the raw code.''')
-```
-
-
-
-
 <script>
 code_show=false; 
 function code_toggle() {
