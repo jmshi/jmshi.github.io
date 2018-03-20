@@ -14,85 +14,14 @@ games\_and\_tweets
   
 
 
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
 
-<!-- Loading mathjax macro -->
-
-
-  
-<!-- Load mathjax -->
-
-
-  
-
-  
-<!-- MathJax configuration -->
-
-
-  
-
-  
-<!-- End of mathjax configuration -->
-
-<div id="notebook" class="border-box-sizing" tabindex="-1">
-  <div id="notebook-container" class="container">
-    <div class="cell border-box-sizing code_cell rendered">
-      <div class="input">
-        <div class="prompt input_prompt">
-          In [16]:
-        </div>
-        
-        <div class="inner_cell">
-          <div class="input_area">
-            <div class=" highlight hl-ipython2">
-              <pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-<span class="n">HTML</span><span class="p">(</span><span class="s1">'''&lt;script&gt;</span>
-<span class="s1">code_show=true; </span>
-<span class="s1">function code_toggle() {</span>
-<span class="s1"> if (code_show){</span>
-<span class="s1"> $('div.input').hide();</span>
-<span class="s1"> } else {</span>
-<span class="s1"> $('div.input').show();</span>
-<span class="s1"> }</span>
-<span class="s1"> code_show = !code_show</span>
-<span class="s1">} </span>
-<span class="s1">$( document ).ready(code_toggle);</span>
-<span class="s1">&lt;/script&gt;</span>
-<span class="s1">The raw code for this IPython notebook is by default hidden for easier reading.</span>
-<span class="s1">To toggle on/off the raw code, click &lt;a href="javascript:code_toggle()"&gt;here&lt;/a&gt;.'''</span><span class="p">)</span>
-</pre>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="output_wrapper">
-        <div class="output">
-          <div class="output_area">
-            <div class="prompt output_prompt">
-              Out[16]:
-            </div>
-            
-            <div class="output_html rendered_html output_subarea output_execute_result">
-              <br /> The raw code for this IPython notebook is by default hidden for easier reading.<br /> To toggle on/off the raw code, click <button type="button" onclick="code_toggle();">Here</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     
-    <div class="cell border-box-sizing text_cell rendered">
-      <div class="prompt input_prompt">
-      </div>
-      
-      <div class="inner_cell">
-        <div class="text_cell_render border-box-sizing rendered_html">
           <h1 id="1.-Introductio">
             1. Introduction<a class="anchor-link" href="#1.-Introductio">¶</a>
           </h1>
           
           <p>
-            <strong>Motivation:</strong>  <img class="size-medium wp-image-273 alignright" src="http://jimingshi.us/wp-content/uploads/2016/10/bird_nest-300x300.png" alt="bird_nest" width="400" height="400" srcset="http://jimingshi.us/wp-content/uploads/2016/10/bird_nest-300x300.png 300w, http://jimingshi.us/wp-content/uploads/2016/10/bird_nest-150x150.png 150w, http://jimingshi.us/wp-content/uploads/2016/10/bird_nest.png 420w" sizes="(max-width: 400px) 100vw, 400px" />Along with the explosion of popularity of mobile devices, mobile games also become more and more popular nowadays. From retro games such as Plants vs. Zombies and Flappy Bird to more recent multiplayer games such as Clash of Clans and Pokemon Go, there are a variety of them which all made big success but with very different strategies.Investigating how popular they are and what make them popular or not would bring instructional information which is invaluable to determine a better short/long term plan of their product and service.
+            <strong>Motivation:</strong>  <img class="size-medium wp-image-273 alignright" src="/assets/bird_nest-300x300.png" alt="bird_nest" width="400" height="400" srcset="/assets/bird_nest-300x300.png 300w, /assets/bird_nest-150x150.png 150w, /assets/bird_nest.png 420w" sizes="(max-width: 400px) 100vw, 400px" />Along with the explosion of popularity of mobile devices, mobile games also become more and more popular nowadays. From retro games such as Plants vs. Zombies and Flappy Bird to more recent multiplayer games such as Clash of Clans and Pokemon Go, there are a variety of them which all made big success but with very different strategies.Investigating how popular they are and what make them popular or not would bring instructional information which is invaluable to determine a better short/long term plan of their product and service.
           </p>
           
           <p>
@@ -106,9 +35,6 @@ games\_and\_tweets
           <p>
             <strong>Methods/Tools</strong>: I use <a href="https://dev.twitter.com/streaming/overview">Twitter Streaming API</a> together with Python libraries such as <a href="http://www.tweepy.org/">$\texttt{Tweepy}$</a> and <a href="https://pypi.python.org/pypi/twitterscraper">$\texttt{twitterscraper}$</a> to collect user information and relevant tweets (in the past 1-2 weeks) about certain set of popular mobile games. Use Natural Language Processing libraries such as $\texttt{NLTK}$ to find keywords which characterize the game, and use $\texttt{matplotlib}$ and $\texttt{Vincent}$ to render plots.
           </p>
-        </div>
-      </div>
-    </div>
     
     <div class="cell border-box-sizing text_cell rendered">
       <div class="prompt input_prompt">
@@ -507,7 +433,7 @@ games\_and\_tweets
             </div>
             
             <div class="output_png output_subarea ">
-              <img class="size-medium wp-image-286 aligncenter" src="http://jimingshi.us/wp-content/uploads/2016/10/barchart-248x300.png" alt="barchart" width="248" height="300" srcset="http://jimingshi.us/wp-content/uploads/2016/10/barchart-248x300.png 248w, http://jimingshi.us/wp-content/uploads/2016/10/barchart.png 309w" sizes="(max-width: 248px) 100vw, 248px" />
+              <img class="size-medium wp-image-286 aligncenter" src="/assets/barchart-248x300.png" alt="barchart" width="248" height="300" srcset="/assets/barchart-248x300.png 248w, /assets/barchart.png 309w" sizes="(max-width: 248px) 100vw, 248px" />
             </div>
           </div>
         </div>
@@ -785,7 +711,7 @@ games\_and\_tweets
               &#8216;halloween&#8217;, &#8216;new&#8217;, and &#8216;update&#8217; are related to recent update of the App;
             </li>
             <li>
-              &#8216;halloween&#8217; and &#8216;event&#8217; refer to the newly announced halloween event which aims to stimulate the players to play even in this cool weather.<img class="size-full wp-image-292 aligncenter" src="http://jimingshi.us/wp-content/uploads/2016/10/word_count-1.png" alt="word_count" width="1023" height="552" srcset="http://jimingshi.us/wp-content/uploads/2016/10/word_count-1.png 1023w, http://jimingshi.us/wp-content/uploads/2016/10/word_count-1-300x162.png 300w, http://jimingshi.us/wp-content/uploads/2016/10/word_count-1-768x414.png 768w" sizes="(max-width: 1023px) 100vw, 1023px" />
+              &#8216;halloween&#8217; and &#8216;event&#8217; refer to the newly announced halloween event which aims to stimulate the players to play even in this cool weather.<img class="size-full wp-image-292 aligncenter" src="/assets/word_count-1.png" alt="word_count" width="1023" height="552" srcset="/assets/word_count-1.png 1023w, /assets/word_count-1-300x162.png 300w, /assets/word_count-1-768x414.png 768w" sizes="(max-width: 1023px) 100vw, 1023px" />
             </li>
           </ul>
         </div>
