@@ -37,6 +37,8 @@ One way we can get an easy measurement of if a game is popular or not is to pull
 
 The following plot shows total number of followers to-date of a list of 14 popular mobile games (list based on internet reviews in 2015 and 2016):
 There are two winners: *Clash of Clans* and *Pokemon Go*, both have followers more than 2 millions, which clearly shows both are or were very popular games (follower number only goes up with time, so there is a bias toward games with longer time spans.)
+
+<img class="size-medium wp-image-273 aligncentert" src="/assets/followers.png" alt="followers" width="400" height="400" />
            
         
         <div class="inner_cell">
