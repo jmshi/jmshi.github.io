@@ -6,7 +6,9 @@
     //border-bottom: 4px solid $clemson-purple;
     //min-height: 56px;
     //background: $clemson-orange;
-    background: url(/assets/cropped-WANDERERS_ringsurf_01.jpg) 100% 100% no-repeat;
+    background: url(/assets/cropped-WANDERERS_ringsurf_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     // Positioning context for the mobile navigation icon
     position: relative;
 
