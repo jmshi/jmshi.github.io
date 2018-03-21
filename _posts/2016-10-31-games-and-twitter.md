@@ -15,7 +15,7 @@ categories: Data Science
    
 Text mining via social media such as Twitter comes in handy in this kind of task. As Twitter data constitutes a rich source of information about any topic imaginable, they can be used to find trends related to a specific keyword, measuring brand sentiment, and gathering feedback about new products and services.
 
-In this proposal, I will demonstrate the possibility to use Twitter to (1) make very efficient and productive survey in the mobile game business, and (2) perform detailed analysis on given product (here use Pokemon Go as an example) to find out important information such as hot terms/topic, product usage patterns, and the customer sentiment of the product.
+In this proposal, I will demonstrate the possibility to use Twitter to (1) make very efficient and productive survey in the mobile game business, and (2) perform detailed analysis on given product (here use Pokemon Go as an example) to find out important information such as hot terms/topic, product usage patterns, and the customer sentiment of the product. The analysis can be found in this [notebook](nbviewer.jupyter.org/gist/jmshi/a90c1651b857aad55e06796113d67b97).
          
 ### Methods/Tools:
 I use <a href="https://dev.twitter.com/streaming/overview">Twitter Streaming API</a> together with Python libraries such as <a href="http://www.tweepy.org/">$\texttt{Tweepy}$</a> and <a href="https://pypi.python.org/pypi/twitterscraper">$\texttt{twitterscraper}$</a> to collect user information and relevant tweets (in the past 1-2 weeks) about certain set of popular mobile games. Use Natural Language Processing libraries such as $\texttt{NLTK}$ to find keywords which characterize the game, and use $\texttt{matplotlib}$ and $\texttt{Vincent}$ to render plots.
