@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Ji-Ming Shi
 email: jmshi.astro@gmail.com
-description: #no description yet. # this means to ignore newlines until "baseurl:"
+description: "Astronomy compels the soul to look upward, and leads us from this world to another." - Plato
+ # this means to ignore newlines until "baseurl:"
         #Write an awesome description for your new site here. You can edit this
         #line in _config.yml. It will appear in your document head meta (for
         #Google search results) and in your feed.xml site description.
