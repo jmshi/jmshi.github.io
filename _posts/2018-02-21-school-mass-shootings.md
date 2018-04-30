@@ -43,7 +43,8 @@ It is also worth mentioning that the averaged fatalities in 'Religious', i.e., s
 somewhat limited number of samples. 
 
 
-
+## <var>\chi</var><sup>2</sup> - test
+We could the significance of this finding by imposing a null hypothesis that the fatality rate of school shootings is the same as that in other places. It could be easily ruled out due to its small <var>p</var>-value ~ <var>0.02</var>.
 
 
 ## Cross check between these two datasets
