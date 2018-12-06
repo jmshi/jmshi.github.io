@@ -12,6 +12,10 @@ permalink: /research/cbd/
 <span style="font-size: 12pt;">We performed the first 3D MHD simulation of the circumbinary disk (of equal mass binary; paper link at <a href="http://adsabs.harvard.edu/abs/2012ApJ...749..118S">ADS</a> & <a href="http://arxiv.org/abs/1110.4866">astro-ph</a>) to study in details how the mass and angular momentum is redistributed by the gravity of the binary. We discovered overdensity lump along with other interesting signatures, such as low density gap, overdensity &#8216;lump&#8217; near the gap edge (see top left image) , narrow laminar gas streams across the gap (see the top right movie) and disk eccentricity growth. The &#8216;lump&#8217; also modulates the disk accretion at the local orbital frequency, which provides a possible way to detect binary black hole mergers based on the periodicity.</span>
 
 &nbsp;
+<div style="float: left; margin-right: 15px;">
+{% include vimeo.html id="5240491897" %}
+</div>
+
 
 <span style="font-size: 12pt;">The big accretion rate found in our previous work<img class="wp-image-170 alignright" src="/assets/mdot_t_b3d-300x206.png" alt="mdot_t_b3d" width="277" height="190" srcset="/assets/mdot_t_b3d-300x206.png 300w, /assets/mdot_t_b3d-768x526.png 768w, /assets/mdot_t_b3d.png 912w" sizes="(max-width: 277px) 100vw, 277px" /> let us consider the accretion efficiency problem of a binary. Recently, we ran 3d MHD simulations for disks around single and binary objects. We then measure, to what extent, the accretion rates are affected by the binary torque with respect to the single mass case. We find the circumbinary disks have comparable rate of accretion as the single mass disk does (see different colored lines on the right). We find equilibrium accretion is</span>
 
